@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="Html\css\style.css"/>
+		<meta name="description" content="Contenu de cours">
+		<meta name="keyword" content="Contenu de cours ">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://kit.fontawesome.com/b18ab37082.js" crossorigin="anonymous"></script>
+		<script src="Html\js\contenudecours.js" defer></script>
+		<script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+
+		<title> Cdc</title>
+	</head>
+	
+<body onload="Page(1)">
+	
+	 
+<div id="final" >
+	<h1>Contenu de cours</h1>
+
+
+	<div class="pages">
+		<div id="p1">
+			<div class="contenu">
+				<h2>Notes 1<h2> 
+				<label for="motcle">Mot clé :</label>
+		
+				<input type="text" name="mot-clés" id="motcle" placeholder="Mot-clé du cours"><br>
+			
+				<input type="button" value="G" style="font-weight: bold;" onclick="commande('bold');" />
+				<input type="button" value="I" style="font-style: italic;" onclick="commande('italic');" />
+				<input type="button" value="S" style="text-decoration: underline;" onclick="commande('underline');" />
+				<input type="button" value="S" style="text-decoration: line-through;" onclick="commande('strikethrough');"/>
+				<input type="button" value="S" style="color:  blue;" onclick="commande('forecolor');" />
+				<input type="button" value="•" style="text-decoration: insertunorderedlist;" onclick="commande('insertunorderedlist');"/>
+				<input type="button" value="Image" onclick="commande('insertImage');"/>
+				<input type="button" value="Lien" onclick="commande('createLink');" />									
+				<div class="editeur" contentEditable ></div>
+			</div>
+		</div>
+
+		<div id="p2">
+			<div class="contenu">
+				<h2>Notes 2<h2> 
+				<label for="motcle">Mot clé :</label>
+		
+				<input type="text" name="mot-clés" id="motcle" placeholder="Mot-clé du cours"><br>
+			
+				<input type="button" value="G" style="font-weight: bold;" onclick="commande('bold');" />
+				<input type="button" value="I" style="font-style: italic;" onclick="commande('italic');" />
+				<input type="button" value="S" style="text-decoration: underline;" onclick="commande('underline');" />
+				<input type="button" value="S" style="text-decoration: line-through;" onclick="commande('strikethrough');"/>
+				<input type="button" value="S" style="color:  blue;" onclick="commande('forecolor');" />
+				<input type="button" value="•" style="text-decoration: insertunorderedlist;" onclick="commande('insertunorderedlist');"/>
+				<input type="button" value="Image" onclick="commande('insertImage');"/>
+				<input type="button" value="Lien" onclick="commande('createLink');" />									
+				<div class="editeur" contentEditable ></div>
+			</div>
+		</div>
+		
+		<div id="p3">
+			<div class="contenu">
+			<h2>Notes 3<h2> 
+			<label for="motcle">Mot clé :</label>
+		
+			<input type="text" name="mot-clés" id="motcle" placeholder="Mot-clé du cours"><br>
+			
+			<input type="button" value="G" style="font-weight: bold;" onclick="commande('bold');" />
+			<input type="button" value="I" style="font-style: italic;" onclick="commande('italic');" />
+			<input type="button" value="S" style="text-decoration: underline;" onclick="commande('underline');" />
+			<input type="button" value="S" style="text-decoration: line-through;" onclick="commande('strikethrough');"/>
+			<input type="button" value="S" style="color:  blue;" onclick="commande('forecolor');" />
+			<input type="button" value="•" style="text-decoration: insertunorderedlist;" onclick="commande('insertunorderedlist');"/>
+			<input type="button" value="Image" onclick="commande('insertImage');"/>
+			<input type="button" value="Lien" onclick="commande('createLink');" />									
+			<div class="editeur" contentEditable ></div>
+		</div>
+	</div>
+	</br>
+
+	<div id="pagination">
+		<button onclick="Page(1)" >1</button>
+		<button onclick="Page(2)" >2</button>
+		<button onclick="Page(3)" >3</button>
+		<button>></button>
+	</div>
+</div>
+
+<div class="contenu">
+	<h2>Questions et prochains devoirs</h2>
+		<input type="button" value="G" style="font-weight: bold;" onclick="commande('bold');" />
+		<input type="button" value="I" style="font-style: italic;" onclick="commande('italic');" />
+		<input type="button" value="S" style="text-decoration: underline;" onclick="commande('underline');" />
+		<input type="button" value="S" style="text-decoration: line-through;" onclick="commande('strikethrough');"/>
+		<input type="button" value="S" style="color:  blue;" onclick="commande('forecolor');" />
+		<input type="button" value="•" style="text-decoration: insertunorderedlist;" onclick="commande('insertunorderedlist');"/>
+		<input type="button" value="Image" onclick="commande('insertImage');"/>
+		<input type="button" value="Lien" onclick="commande('createLink');" />									
+		<div class="editeur" contentEditable ></div>
+</br>
+
+
+	</div>
+		<div class="contenu">
+			<h2>Resumé</h2>
+			<input type="button" value="G" style="font-weight: bold;" onclick="commande('bold');" />
+			<input type="button" value="I" style="font-style: italic;" onclick="commande('italic');" />
+			<input type="button" value="S" style="text-decoration: underline;" onclick="commande('underline');" />
+			<input type="button" value="S" style="text-decoration: line-through;" onclick="commande('strikethrough');"/>
+			<input type="button" value="S" style="color:  blue;" onclick="commande('forecolor');" />
+			<input type="button" value="•" onclick="commande('insertunorderedlist');"/>
+			<input type="button" value="Image" onclick="commande('insertImage');"/>
+			<div class="editeur" contentEditable ></div>
+		</div>
+	</br>
+		<input type="submit" value="Valider" accesskey="s">
+		</div>
+</div>
+				
+					
+				
+			
+
+	
+
+
+	
+
+		
+
+	
+
+
+
+
+	
+
+</body>
+</html>
+
+    
