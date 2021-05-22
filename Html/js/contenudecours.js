@@ -16,9 +16,7 @@ function commande(nom, argument) {
         break;
         case "insertImage":
           argument = prompt("Veuillez entrer le lien vers l'image");
-
-          
-          break;
+        break;
     }
     
   
@@ -47,7 +45,7 @@ $(document).ready(function() {
 /* */
 $(document).ready(function() {
   $('.contenu input').click(function() {
-    $(this).toggleClass('active').siblings().removeClass('active')
+    $(this).toggleClass('active').siblings()
   });
 });
 
